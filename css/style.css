@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #222222;
+}
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+}
+p {
+  line-height: 1.6;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+footer {
+  margin-top: 40px;
+}
