@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Computere</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/layout.css" />
   </head>
   <body>
     <header>
@@ -21,19 +22,41 @@
     </header>
     <main>
       <h1>Computere</h1>
-      <p>Et site om computeren med alt fra dens historie til dens specifikationer og mine personlige præferencer, når det gælder computere og computerudstyr.</p>
-      <img src="images/computer-cutout.webp" alt="Computer" />
-      <h2>Stats</h2>
-      <p>Ni ud af ti familier ejer i 2022 en eller flere smartphones, mens knap seks ud af ti familier har en tablet-pc liggende. Hele 94 procent ejer personlig computer, hvoraf fire ud af ti anvender Windows som deres primære operativsystem.</p>
-      <h3>Personlig Computer</h3>
-      <p>94%</p>
-      <h3>Windows</h3>
-      <p>40%</p>
-      <h3>Tablet</h3>
-      <p>56%</p>
-      <h3>Smartphone</h3>
-      <p>93%</p>
-      <img src="images/computer-old.webp" alt="Ældre computer" />
+      <section class="grid_2-1">
+        <div>
+          <p>Et site om computeren med alt fra dens historie til dens specifikationer og mine personlige præferencer, når det gælder computere og computerudstyr.</p>
+        </div>
+        <div>
+          <img src="images/computer-cutout.webp" alt="Computer" />
+        </div>
+      </section>
+      <section class="grid_1-1">
+        <div>
+          <h2>Stats</h2>
+          <p>Ni ud af ti familier ejer i 2022 en eller flere smartphones, mens knap seks ud af ti familier har en tablet-pc liggende. Hele 94 procent ejer personlig computer, hvoraf fire ud af ti anvender Windows som deres primære operativsystem.</p>
+          <dl class="grid_1-1">
+            <div>
+              <dt>Personlig Computer</dt>
+              <dd>94%</dd>
+            </div>
+            <div>
+              <dt>Windows</dt>
+              <dd>40%</dd>
+            </div>
+            <div>
+              <dt>Tablet</dt>
+              <dd>56%</dd>
+            </div>
+            <div>
+              <dt>Smartphone</dt>
+              <dd>93%</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="order">
+          <img src="images/computer-old.webp" alt="Ældre computer" />
+        </div>
+      </section>
     </main>
     <footer>
       <p>Computere</p>
